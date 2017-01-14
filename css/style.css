@@ -1,8 +1,14 @@
 header {
         background-color: #0A7C84;
+        margin-bottom: 15px;
 }
 
 footer {
     background-color: #0A7C84;
+    color: #40B0C9;
+    margin-top: 15px;
 }
 
+footer p {
+    color: #fff;
+}
