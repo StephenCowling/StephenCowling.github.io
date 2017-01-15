@@ -1,26 +1,53 @@
 body {
     background-color: #263238;
+    background-image: url('../images/bg-tentacles.png');
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
+.site-logo {
+    width: 100%;
+    margin: 20px auto 0px auto;
+}
 
 header {
         margin-bottom: 15px;
 }
 
-#intro p{
-    color: #fff;
+#intro {
+    background-color: #28353a;
+    padding: 20px;
 }
 
-#intro .lead {
+#intro p{
+    color: #fff;
+    text-align: center;
+}
+
+#intro h1 {
     color: #fdd835;
+    text-align: center;
 }
 
 footer {
+    color: #fff;
+    text-align: center;
     margin-top: 15px;
 }
 
 footer p {
+    color: #fff;
+}
+
+footer a,
+footer a:link {
     color: #fdd835;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -30,22 +57,17 @@ footer p {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    .site-logo {
-    width: 280px;
-    height: 91px;
-}
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    .site-logo {
-    width: 380px;
-    height: 122px;
-}
+
 }
 
 /* Medium Devices, Desktops */
