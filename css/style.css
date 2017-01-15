@@ -1,14 +1,29 @@
+body {
+    background-color: #263238;
+}
+
+
 header {
-        background-color: #0A7C84;
         margin-bottom: 15px;
 }
 
+.site-logo {
+    width: 380px;
+    height: 122px;
+}
+
+#intro p{
+    color: #fff;
+}
+
+#intro .lead {
+    color: #fdd835;
+}
+
 footer {
-    background-color: #0A7C84;
-    color: #40B0C9;
     margin-top: 15px;
 }
 
 footer p {
-    color: #fff;
+    color: #fdd835;
 }
