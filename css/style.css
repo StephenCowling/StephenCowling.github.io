@@ -7,11 +7,6 @@ header {
         margin-bottom: 15px;
 }
 
-.site-logo {
-    width: 380px;
-    height: 122px;
-}
-
 #intro p{
     color: #fff;
 }
@@ -26,4 +21,37 @@ footer {
 
 footer p {
     color: #fdd835;
+}
+
+
+/*============= START DEVICES ===============================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .site-logo {
+    width: 280px;
+    height: 91px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .site-logo {
+    width: 380px;
+    height: 122px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
 }
