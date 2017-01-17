@@ -10,12 +10,17 @@ body {
     margin: 20px auto 0px auto;
 }
 
+.site-logo-home {
+    width: 100%;
+    margin: 20px auto 0px auto;
+    padding: 0 20% 0 20%;
+}
+
 header {
         margin-bottom: 15px;
 }
 
 #intro {
-    background-color: #28353a;
     padding: 20px;
 }
 
@@ -130,3 +135,4 @@ h1 {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
+
