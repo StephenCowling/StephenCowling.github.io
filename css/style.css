@@ -93,6 +93,21 @@ h1 {
     border-color: #fdd835;
 }
 
+
+
+/*====== BTTN ======*/
+
+.bttn-slant.bttn-yello {
+    color: #263238;
+}
+.bttn-slant.bttn-yello:before {
+    background: #fdd835;
+}
+
+a.bttn-slant {
+     color: #263238;
+}
+
 /*============= START DEVICES ===============================*/
 
 /*==========  Mobile First Method  ==========*/
